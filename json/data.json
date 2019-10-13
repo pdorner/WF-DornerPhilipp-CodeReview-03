@@ -1,0 +1,131 @@
+var movie = [
+{
+
+    "id": "1",
+
+    "movieTitleName": "The Life Aquatic with Steve Zissou",
+
+    "shortDiscription": "The film stars Bill Murray as the eponymous Steve Zissou",
+
+    "discription": "The film stars Bill Murray as the eponymous Steve Zissou, an eccentric oceanographer who sets out to exact revenge on the jaguar shark that ate his partner Esteban. Zissou is both a parody of and homage to French diving pioneer Jacques Cousteau (1910–1997), to whom the film is dedicated. Cate Blanchett, Willem Dafoe, Michael Gambon, Jeff Goldblum, Anjelica Huston, Owen Wilson, Seu Jorge, and Bud Cort are also featured in the film.",
+
+    "directedBy": "Wes Anderson",
+
+    "staring": "Bill Murray, Owen Wilson, Cate Blanchett, Anjelica Huston, Willem Dafoe, Jeff Goldblum, Michael Gambon, Bud Cort",
+
+    "runtime": "118 minutes",
+
+    "img": "./img/Aquatic.jpg",
+
+    "like": 0
+
+},
+{
+
+    "id": "2",
+
+    "movieTitleName": "Fight Club",
+
+     "shortDiscription": "Fight Club is a 1999 film directed",
+
+    "discription": "Fight Club is a 1999 film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter. It is based on the 1996 novel of the same name by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. He forms a fight club with soap salesman Tyler Durden (Pitt), and becomes embroiled in a relationship with him and a destitute woman, Marla Singer (Bonham Carter).",
+
+    "directedBy": "David Fincher",
+
+    "staring": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+
+    "runtime": "139 minutes",
+
+    "img": "./img/Fight_Club.jpg",
+
+        "like": 0
+
+},
+{
+
+    "id": "3",
+
+    "movieTitleName": "It Follows",
+
+   "shortDiscription": "It Follows is a 2014 American supernatural psychological horror film",
+
+
+    "discription": "It Follows is a 2014 American supernatural psychological horror film written and directed by David Robert Mitchell, and starring Maika Monroe, Keir Gilchrist, Daniel Zovatto, Jake Weary, Olivia Luccardi, and Lili Sepe.[4] The film follows a teenage girl named Jay, who is pursued by a supernatural entity after a sexual encounter.",
+
+    "directedBy": "David Robert Mitchell",
+
+    "staring": "Rebecca Green, Laura D. Smith, David Robert Mitchell",
+
+    "runtime": "100 minutes",
+
+    "img": "./img/follows.jpg",
+        "like": 0
+
+},
+{
+
+    "id": "4",
+
+    "movieTitleName": "Lady Vengeance",
+
+      "shortDiscription": "Lady Vengeance  is a 2005 South Korean psychological thriller",
+
+
+    "discription": "Lady Vengeance  is a 2005 South Korean psychological thriller film directed by Park Chan-wook. The film is the third installment in Park's Vengeance Trilogy, following Sympathy for Mr. Vengeance (2002) and Oldboy (2003). It stars Lee Young-ae as Lee Geum-ja, a woman released from prison after serving the sentence for a murder she did not commit. The film tells her story of revenge against the real murderer.",
+
+    "directedBy": "Park Chan-wook",
+
+    "staring": "Lee Young-ae, Choi Min-sik",
+
+    "runtime": "115 minutes",
+
+    "img": "./img/Lady.jpg",
+
+        "like": 0
+
+},
+{
+
+    "id": "5",
+
+    "movieTitleName": "Lost in Translation",
+
+          "shortDiscription": "Lost in Translation is a 2003 romantic comedy-drama film",
+
+
+
+    "discription": "Lost in Translation is a 2003 romantic comedy-drama film written and directed by Sofia Coppola. It stars Bill Murray as aging actor Bob Harris, who befriends college graduate Charlotte (Scarlett Johansson) in a Tokyo hotel. The movie explores themes of loneliness, insomnia, existential ennui, and culture shock against the backdrop of a modern Japanese city.",
+
+    "directedBy": "Sofia Coppola",
+
+    "staring": "Bill Murray, Scarlett Johansson, Giovanni Ribisi, Anna Faris",
+
+    "runtime": "101 minutes",
+
+    "img": "./img/lost.jpg",
+
+        "like": 0
+
+},
+{
+
+    "id": "6",
+
+    "movieTitleName": "The Machinist",
+
+    "shortDiscription": "The Machinist is a 2004 American neo-noir psychological thriller",
+
+
+    "discription": "The Machinist is a 2004 American neo-noir psychological thriller film directed by Brad Anderson and written by Scott Kosar. The film stars Christian Bale and features Jennifer Jason Leigh, Aitana Sánchez-Gijón, John Sharian, and Michael Ironside in supporting roles. The film is about Trevor Reznik (Bale), a machinist whose insomnia and psychological problems lead to a serious workplace accident involving a co-worker (Ironside). After Reznik is fired, he goes into a downward spiral of paranoia and delusion. The film was well-received by critics, particularly for Bale's performance. It is an international co-production of Spain, the United Kingdom, France and the United States.",
+
+    "directedBy": "Brad Anderson",
+
+    "staring": "Christian Bale, Jennifer Jason Leigh, Aitana Sánchez-Gijón",
+
+    "runtime": "102 minutes",
+
+    "img": "./img/machanist.jpg",
+
+   "like": 0
+
+}];
