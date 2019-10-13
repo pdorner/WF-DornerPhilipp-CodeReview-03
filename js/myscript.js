@@ -46,14 +46,14 @@ function main(movie){
         }
 
     generateEvents ();
-
+details();
 }
 
 
 /*creat Footer*/
 function footer() {
     var footer = document.getElementById("footer");
-    footer.innerHTML = '<nav class="navbar1"><ul class="item1"><li class="item-list1"><a href="Main.html " alt="main">Home</a></li></ul></nav>';
+    footer.innerHTML = '<nav class="navbar1"><ul class="item1"><li class="item-list1"><a href="index.html " alt="main">Home</a></li></ul></nav>';
     footer.innerHTML += '<p id="myName">&copy; Dorner Philipp-CodeFactory 2018</p>';
    
 }
@@ -67,10 +67,10 @@ window.onload = function () {
 
 //counter Event for LikeButton gets id of json and calls likes
 function generateEvents (){
-    var btn = document.getElementsByClassName("ButtonLike");
+    var button = document.getElementsByClassName("ButtonLike");
 
     for(var i = 0; i < movie.length; i++){
-        btn[i].addEventListener("click",function(){likes(this.getAttribute("id"))
+        button[i].addEventListener("click",function(){likes(this.getAttribute("id"))
         }, false);
     }
 }
@@ -124,3 +124,4 @@ function sorting(){
         return sortingTitle();
     }
 }
+
