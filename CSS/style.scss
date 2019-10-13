@@ -10,6 +10,8 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+        background-image: url(../img/background1.jpg);
+
 }
 
 #header {
@@ -89,16 +91,12 @@ a {
 /*Main*/
 
 
-body {
-    background-image: url(../img/background1.jpg);
-
-}
-
 .content {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-left:5%;
 
 }
 
