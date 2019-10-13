@@ -73,7 +73,6 @@ a {
   flex-direction: row-reverse; }
 
 /*Main*/
-/* ---------- Movie tiles ---------- */
 body {
   background-image: url(../img/background1.jpg); }
 
@@ -137,36 +136,16 @@ main {
   padding: 0.4em;
   background-color: inherit; }
 
-/* ---------- "Like button" ---------- */
 .likes {
   align-self: flex-end;
   display: flex;
   align-items: center; }
 
-.likes button {
-  align-content: center;
-  padding: 0.6rem;
-  margin-right: 0.5rem; }
-
-.likes button:active {
-  color: #E8EFFC;
-  background-color: #08f92e;
-  border-radius: 5%; }
-
-.likes .counter {
-  display: inline-block;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-  width: 4.1rem;
-  height: 4.1rem;
-  background-color: #08f92e;
-  border-radius: 50%; }
-
 /*Footer*/
 footer {
-  background-color: black;
-  color: white; }
+  color: white;
+  background-image: url(../img/background3.jpg);
+  background-size: cover; }
 
 .navbar1 {
   background-color: black;
@@ -192,9 +171,11 @@ a {
   color: white; }
 
 #myName {
-  margin-top: 5em;
+  margin-top: 1em;
   text-align: center;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-size: 2.5em;
+  font-family: 'Fascinate Inline', cursive; }
 
 #flexBoxteam {
   padding-top: 2em;

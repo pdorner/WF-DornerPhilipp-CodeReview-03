@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-image: url(../img/background3.jpg);
-background-size: cover;
+    background-size: cover;
     width: 100%;
     margin-bottom: 0;
     margin: 0;
@@ -28,9 +28,8 @@ background-size: cover;
     margin: 0 auto;
 }
 
-#title {   
-     font-family: 'Fascinate Inline', cursive;
-
+#title {
+    font-family: 'Fascinate Inline', cursive;
     align-self: center;
     text-shadow: 2px 2px black;
     font-size: 3em;
@@ -56,7 +55,7 @@ ul.item {
     padding-top: 7px;
     width: 10%;
     text-align: center;
-    color:white;
+    color: white;
 }
 
 .item-list:hover {
@@ -69,19 +68,18 @@ a {
     color: white;
 }
 
-.dropdown{
+.dropdown {
     width: 30%;
     align-self: flex-end;
-
-   background: black;
+    background: black;
     height: 3em;
     text-align: end;
     padding-left: 2em;
 }
 
-#sort{
+#sort {
     border: none;
-    color:white;
+    color: white;
     padding: 0.4em;
     font-size: 1em;
     background-color: inherit;
@@ -91,7 +89,6 @@ a {
 /*Main*/
 
 
-/* ---------- Movie tiles ---------- */
 body {
     background-image: url(../img/background1.jpg);
 
@@ -120,8 +117,9 @@ main {
     background-size: cover;
 
 }
-.flexitem:hover{
-     box-shadow: 5px 10px red;
+
+.flexitem:hover {
+    box-shadow: 5px 10px red;
 
 }
 
@@ -133,8 +131,8 @@ main {
 .imgDiv img {
     width: 100%;
     height: 80%;
-      display: block;
-    margin-top: 10%; 
+    display: block;
+    margin-top: 10%;
 
 }
 
@@ -164,8 +162,9 @@ main {
     cursor: pointer;
 
 }
-.ButtonLike:hover{
-       color: green;
+
+.ButtonLike:hover {
+    color: green;
     display: inline-block;
     border: none;
     font-size: 1.5em;
@@ -173,42 +172,20 @@ main {
     background-color: inherit;
 }
 
-/* ---------- "Like button" ---------- */
+
 .likes {
     align-self: flex-end;
     display: flex;
     align-items: center;
 }
 
-.likes button {
-
-    align-content: center;
-    padding: 0.6rem;
-    margin-right: 0.5rem;
-}
-
-.likes button:active {
-    color: #E8EFFC;
-    background-color: #08f92e;
-    border-radius: 5%;
-}
-
-.likes .counter {
-    display: inline-block;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    width: 4.1rem;
-    height: 4.1rem;
-    background-color: #08f92e;
-    border-radius: 50%;
-}
 
 /*Footer*/
 footer {
-    background-color: black;
     color: white;
-  
+    background-image: url(../img/background3.jpg);
+    background-size: cover;
+
 }
 
 .navbar1 {
@@ -220,6 +197,7 @@ footer {
 ul.item1 {
     margin-top: 0;
     padding: 0em;
+
 }
 
 .item-list1 {
@@ -242,9 +220,13 @@ a {
 
 
 #myName {
-    margin-top: 5em;
+    margin-top: 1em;
     text-align: center;
     margin-bottom: 0;
+      font-size: 2.5em;
+     font-family: 'Fascinate Inline', cursive;
+
+
 }
 
 #flexBoxteam {

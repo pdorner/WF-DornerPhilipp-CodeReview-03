@@ -46,7 +46,6 @@ function main(movie){
         }
 
     generateEvents ();
-details();
 }
 
 
@@ -54,7 +53,7 @@ details();
 function footer() {
     var footer = document.getElementById("footer");
     footer.innerHTML = '<nav class="navbar1"><ul class="item1"><li class="item-list1"><a href="index.html " alt="main">Home</a></li></ul></nav>';
-    footer.innerHTML += '<p id="myName">&copy; Dorner Philipp-CodeFactory 2018</p>';
+    footer.innerHTML += '<p id="myName">&copy; Dorner Philipp-MovieFactory</p>';
    
 }
 
